@@ -4,6 +4,8 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+
+
     defaultConfig {
         applicationId "com.example.finaltest"
         minSdkVersion 16
@@ -29,6 +31,11 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.1'
+    implementation 'com.ibm.watson.developer_cloud:android-sdk:0.2.3'
+
+    implementation 'com.ibm.watson:assistant:8.1.0'
+    implementation 'com.ibm.watson:speech-to-text:8.1.0'
+    implementation 'com.ibm.watson.developer_cloud:android-sdk'
 
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
